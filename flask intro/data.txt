@@ -1,0 +1,12 @@
+k dog=да cat=нет
+k dog=да cat=нет
+k dog=да cat=нет
+k dog=да cat=нет
+k dog=да cat=нет
+k dog=да cat=нет
+k dog=да cat=нет
+вася dog=нет cat=да
+вася dog=нет cat=да
+вася dog=нет cat=да
+петя dog=да cat=да
+коля dog=нет cat=да
