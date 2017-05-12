@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>комментарии Вконтакте</title>
+</head>
+<body>
+<h1>Счетчик комментариев на странице Вконтакте</h1>
+<form method="get">
+<label>Введите id группы в формате example для адресов вида vk.com/example: <input type="textarea" name="id"> </label>
+<input type="submit" value="Отправить">	<br/>
+</form>
+</br>Это может занять некоторое время.
+<hr/	>
+{% if allowed == 0 %}
+это закрытая группа </br>
+{% endif %}
+{% if allowed == 1 %}
+вот самые активные комментаторы: </br>
+{% for i in com_names_scores %}
+{{i}}</br>
+{% endfor %}
+{% endif %}
+
+
+
+
+</body>
+</html>
